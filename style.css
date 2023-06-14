@@ -1,0 +1,39 @@
+
+.custom-image {
+    width: 100%; /* L'image occupe toute la largeur de son conteneur */
+    max-height: 15vh; /* Hauteur maximale de l'image à 15% de la hauteur de la fenêtre */
+    object-fit: cover; /* Redimensionne l'image tout en conservant son rapport largeur/hauteur */
+    object-position: center; /* Centre l'image horizontalement et verticalement */
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.card-img-top {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.no-scroll {
+  overscroll-behavior-x: none;
+  overscroll-behavior-y: none;
+}
+
+.aspect-ratio {
+  position: relative;
+  overflow: hidden;
+  padding-top: 75%; /* Aspect ratio 4:3 (change the value as needed) */
+}
+
+.aspect-ratio img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /*auto*/
+  object-fit: contain; /*cover*/
+  margin: 0;
+  padding: 0;
+}
